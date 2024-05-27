@@ -5,17 +5,18 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    align-items: flex-end;
+    align-items: center;
 }
-.flex-item {
+
+.flex-item, .special, .special2{
     background-color: hotpink;
     height: 30px;
     width: 30px;
    
 }
-.special{
-    background-color: hotpink;
-    height: 30px;
-    width: 30px;
-   
+.flex-item{
+    align-self: flex-end;
+}
+.special2{
+    align-self: flex-start;
 }
