@@ -5,16 +5,17 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    align-items: flex-end;
 }
 .flex-item {
     background-color: hotpink;
     height: 30px;
     width: 30px;
-    align-self: flex-end;
+   
 }
 .special{
     background-color: hotpink;
     height: 30px;
     width: 30px;
-    align-self: flex-start; 
+   
 }
